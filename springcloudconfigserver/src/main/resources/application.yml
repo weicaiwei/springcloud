@@ -1,0 +1,15 @@
+server: 
+  port: 8888
+
+spring: 
+  application: 
+    name: config-server
+  cloud: 
+    config:
+      label: master 
+      server: 
+        git: 
+          uri: https://github.com/weicaiwei/cloudconfig 
+          search-paths: /**
+          username: 1750886898@qq.com
+          password: wang1518290
